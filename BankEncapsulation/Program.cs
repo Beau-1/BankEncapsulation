@@ -11,7 +11,7 @@
             account.Deposit(amountToDeposit);
 
             Console.WriteLine($"Deposit successful. " +
-                $"Your current balance is: {account.GetBalance}");
+                $"Your current balance is: ${account.GetBalance}");
         }
     }
 }
